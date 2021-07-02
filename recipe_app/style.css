@@ -49,10 +49,18 @@ header button {
   margin-left: 10px;
 }
 
+.header h1 {
+  display: flex;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+}
+
 .fav-container {
   background-color: rgb(252, 214, 205);
   padding: 1rem;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .fav-meals {
